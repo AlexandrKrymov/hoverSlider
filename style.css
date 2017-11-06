@@ -1,0 +1,30 @@
+.slider-wrapper{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+}
+
+.slider-wrapper img{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider-wrapper .dots{
+    position: relative;
+    z-index: 1;
+}
+.slider-wrapper .dots .dot{
+    display: inline-block;
+    height: 5px;
+    background: green;
+}
+.slider-wrapper .dots .dot.active{
+    background: red;
+}
